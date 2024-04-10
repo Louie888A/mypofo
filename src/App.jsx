@@ -5,6 +5,7 @@ import Footer from "./pages/Footer";
 import Contact from "./pages/Contact";
 import ProjectsGallery from "./pages/Projectsgallery";
 import ProjectDisplay from "./pages/ProjectDisplay";
+import "./App.css";
 
 function App() {
   return (
