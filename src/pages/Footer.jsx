@@ -10,13 +10,13 @@ const Footer = () => {
             <div className="footer_menu">
               <ul>
                 <li>
-                  <Link to="/home">Home</Link>
+                  <Link to="/Home">Home</Link>
                 </li>
                 <li>
-                  <Link to="/projectsgallery">Project Gallery</Link>
+                  <Link to="/Projectsgallery">Project Gallery</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/Contact">Contact</Link>
                 </li>
               </ul>
             </div>
