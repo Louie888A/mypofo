@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer_menu">
               <ul>
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/home">Home</Link>
                 </li>
                 <li>
                   <Link to="/projectsgallery">Project Gallery</Link>
