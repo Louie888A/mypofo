@@ -1,0 +1,43 @@
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-primary {
+  background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+.container {
+  padding: 30px 100px;
+}
+
+.btn-white {
+  color: hsl(31, 93%, 53%);
+  background-color: #fff;
+  border-color: #0062cc;
+}
+.btn-white:focus {
+  color: hsl(31, 93%, 53%);
+  background-color: #fff;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+.btn-white:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+.image {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 10px;
+  box-shadow: 10px 80px 80px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

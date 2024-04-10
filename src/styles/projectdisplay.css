@@ -1,0 +1,98 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.project-header {
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "kanit", "sans-serif";
+  font-weight: 500;
+  color: #dcf5a3;
+  text-align: center;
+}
+.project-deployed {
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #0062cc;
+  text-align: center;
+}
+.project-github {
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #0062cc;
+  text-align: center;
+}
+
+.project-image {
+  height: 80vh;
+  width: 80vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.project-details {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  background-color: hsl(102, 38%, 90%);
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  width: 80vw;
+  text-align: left;
+}
+.project-deployed {
+  color: #0062cc;
+  font-weight: 900;
+}
+.project-github {
+  color: #0062cc;
+  font-weight: 900;
+}
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: hsl(102, 38%, 90%);
+  padding: 10px;
+  font-family: "Raleway", "sans-serif";
+  font-size: 1rem;
+  font-style: italic;
+}
+.project-title {
+  color: #0062cc;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "kanit", "sans-serif";
+}

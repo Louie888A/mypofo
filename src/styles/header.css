@@ -1,0 +1,27 @@
+.nav {
+  background-color: #040918;
+  font-style: italic;
+  padding: 10px;
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+.nav li {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.nav li a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+}
+.nav li a:hover {
+  color: hsl(249, 70%, 50%);
+}
